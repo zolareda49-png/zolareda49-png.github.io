@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Boutique Streetwear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🧢 Street Wear Shop</h1>
+  <p>Casquettes • T-Shirts • Hoodies</p>
+</header>
+
+<section class="products">
+  <div class="product">
+    <h3>Casquette</h3>
+    <p>Prix : à discuter</p>
+  </div>
+  <div class="product">
+    <h3>T-Shirt</h3>
+    <p>Prix : à discuter</p>
+  </div>
+  <div class="product">
+    <h3>Hoodie</h3>
+    <p>Prix : à discuter</p>
+  </div>
+</section>
+
+<section class="order">
+  <h2>📦 Demande de commande</h2>
+
+  <form action="https://formspree.io/f/xwkgqjzn" method="POST">
+    <input type="text" name="nom" placeholder="Nom complet" required>
+    <input type="tel" name="telephone" placeholder="Téléphone" required>
+
+    <select name="produit" required>
+      <option value="">Choisir un produit</option>
+      <option>Casquette</option>
+      <option>T-Shirt</option>
+      <option>Hoodie</option>
+    </select>
+
+    <input type="text" name="taille" placeholder="Taille (S, M, L...)">
+    <textarea name="message" placeholder="Adresse ou remarque"></textarea>
+
+    <button type="submit">Envoyer la commande</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Street Wear</p>
+</footer>
+
+</body>
+</html>
