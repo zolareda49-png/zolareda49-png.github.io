@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Market Lakbiri</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5e9; /* أخضر فاتح */
+            color: #333;
+        }
+
+        header {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 30px 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            color: #2e7d32; /* أخضر داكن */
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 30px;
+        }
+
+        .item {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .item:hover {
+            transform: translateY(-5px);
+        }
+
+        .item img {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+
+        .item h3 {
+            color: #2e7d32;
+            margin: 10px 0 5px 0;
+        }
+
+        .item p {
+            font-size: 14px;
+            margin: 4px 0;
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #2e7d32;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1b5e20;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Market Lakbiri</h1>
+        <p>Les meilleurs T-shirts, Hoodies et Casquettes à prix abordables!</p>
+    </header>
+
+    <div class="gallery">
+        <!-- T-shirt -->
+        <div class="item">
+            <img src="https://github.com/zolareda49-png/zolareda49-png.github.io/raw/main/tshirt1.jpg" alt="T-shirt Cool Black">
+            <h3>T-shirt Cool Black</h3>
+            <p>Sizes: S, M, L, XL</p>
+            <p>Price: 200 DH</p>
+            <a href="mailto:your-email@example.com?subject=Order T-shirt Cool Black&body=Bonjour, je veux commander ce T-shirt." class="btn">Demande</a>
+        </div>
+
+        <div class="item">
+            <img src="https://github.com/zolareda49-png/zolareda49-png.github.io/raw/main/tshirt2.jpg" alt="T-shirt White">
+            <h3>T-shirt White</h3>
+            <p>Sizes: S, M, L, XL</p>
+            <p>Price: 180 DH</p>
+            <a href="mailto:your-email@example.com?subject=Order T-shirt White&body=Bonjour, je veux commander ce T-shirt." class="btn">Demande</a>
+        </div>
+
+        <!-- Hoodie -->
+        <div class="item">
+            <img src="https://github.com/zolareda49-png/zolareda49-png.github.io/raw/main/hoodie1.jpg" alt="Hoodie Red">
+            <h3>Hoodie Red</h3>
+            <p>Sizes: S, M, L, XL</p>
+            <p>Price: 200 DH</p>
+            <a href="mailto:your-email@example.com?subject=Order Hoodie Red&body=Bonjour, je veux commander ce Hoodie." class="btn">Demande</a>
+        </div>
+
+        <div class="item">
+            <img src="https://github.com/zolareda49-png/zolareda49-png.github.io/raw/main/hoodie2.jpg" alt="Hoodie Black">
+            <h3>Hoodie Black</h3>
+            <p>Sizes: S, M, L, XL</p>
+            <p>Price: 190 DH</p>
+            <a href="mailto:your-email@example.com?subject=Order Hoodie Black&body=Bonjour, je veux commander ce Hoodie." class="btn">Demande</a>
+        </div>
+
+        <!-- Casquette -->
+        <div class="item">
+            <img src="https://github.com/zolareda49-png/zolareda49-png.github.io/raw/main/cap1.jpg" alt="Casquette Blue">
+            <h3>Casquette Blue</h3>
+            <p>Size: One size</p>
+            <p>Price: 120 DH</p>
+            <a href="mailto:your-email@example.com?subject=Order Casquette Blue&body=Bonjour, je veux commander cette Casquette." class="btn">Demande</a>
+        </div>
+
+        <div class="item">
+            <img src="https://github.com/zolareda49-png/zolareda49-png.github.io/raw/main/cap2.jpg" alt="Casquette Black">
+            <h3>Casquette Black</h3>
+            <p>Size: One size</p>
+            <p>Price: 100 DH</p>
+            <a href="mailto:your-email@example.com?subject=Order Casquette Black&body=Bonjour, je veux commander cette Casquette." class="btn">Demande</a>
+        </div>
+    </div>
+</body>
+</html>
